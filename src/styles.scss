@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+$icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+main{
+    margin: 6rem;
+}
+
+.btnclass{
+    // height: 2rem;
+    border-radius: 5px;
+    width: auto;
+    background-color:#7ec0f5
+}
+
+.btnclass:hover{
+    // height: 2rem;
+    border-radius: 5px;
+    width: auto;
+    background-color:#7ec0f5
+}
+
+.btnclass:active{
+    // height: 2rem;
+    border-radius: 5px;
+    width: auto;
+    background-color:#7ec0f5
+}
+
+button:disabled{
+    pointer-events: none;
+}
+
+input[type="checkbox"]{
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid rgba(0,66,144,1.00);
+}
